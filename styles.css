@@ -1,15 +1,18 @@
 .header-name-r{
     color: orange;
     margin: 0px;
+    font-size: 45px;
 }
 
 .nev-menu,nav ul {
     display: flex;
+    
 }
 nav ul li{
     list-style: none;
     margin-right: 20px;
-    margin-top: 5px;
+    margin-top: 50px;
+    font-size: 20px;
     
 
 
@@ -19,4 +22,30 @@ nav ul li{
     margin: 0px;
     padding: 0px;
     
+}
+.h3-class{
+    font-size: 45px; 
+}
+nav li a{
+    text-decoration: none;
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+}
+
+
+
+nav ul button{
+    background-color: #FD6E0A;   
+
+
+width: 70px;
+height: 30px;
+border-radius: 5px;
+color: none;
 }
