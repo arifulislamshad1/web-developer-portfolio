@@ -1,0 +1,22 @@
+.header-name-r{
+    color: orange;
+    margin: 0px;
+}
+
+.nev-menu,nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 5px;
+    
+
+
+}
+
+.nev-menu{
+    margin: 0px;
+    padding: 0px;
+    
+}
