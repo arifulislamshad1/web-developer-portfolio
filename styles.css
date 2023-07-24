@@ -1,51 +1,35 @@
-.header-name-r{
-    color: orange;
-    margin: 0px;
-    font-size: 45px;
-}
+/*common Sharired styles*/
 
-.nev-menu,nav ul {
+
+body{
+    font-family: 'Open Sans', sans-serif;
+   
+   }
+
+
+.text-primary{
+    color: #FD6E0A;
+
+   }
+
+/*nav related styles*/
+
+nav{
     display: flex;
-    
 }
-nav ul li{
+
+.nav-tittle{
+
+color:#181818;
+font-size: 45px;
+font-weight: 800;
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
     list-style: none;
-    margin-right: 20px;
-    margin-top: 50px;
-    font-size: 20px;
-    
-
-
-}
-
-.nev-menu{
-    margin: 0px;
-    padding: 0px;
-    
-}
-.h3-class{
-    font-size: 45px; 
-}
-nav li a{
-    text-decoration: none;
-    color: var(--dark-02, #474747);
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    
-    
-}
-
-
-
-nav ul button{
-    background-color: #FD6E0A;   
-
-
-width: 70px;
-height: 30px;
-border-radius: 5px;
-color: none;
 }
