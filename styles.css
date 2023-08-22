@@ -229,8 +229,41 @@ footer{
 
 
 
+/*responsive*/
+/*mobile devices*/
+
+@media screen and (max-width:576px) {
+    .skills-container,.resume-container{
+        flex-direction:column;
+
+    
+    }
+    #what-i-do-discription{
+        padding: 20px;
+        
+       
+    }
+
+    .footer-colaam{
+        width: 100%;
+        
+}
+.section-discription {
+    padding: 10px;
+    margin-top: 20px;
+}
+footer{
+    flex-direction: column;
+    margin-top: 20px;
+}
 
 
 
 
 
+
+
+
+
+
+}
