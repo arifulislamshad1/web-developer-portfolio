@@ -252,12 +252,19 @@ footer{
     padding: 10px;
     margin-top: 20px;
 }
-footer{
+footer, .about{
     flex-direction: column;
     margin-top: 20px;
+    padding: 10px;
 }
 
-
+.footer-colaam .btn-primary{
+    justify-content: center;
+}
+.about-info-container{
+    flex-direction: column;
+    gap: 8px;
+}
 
 
 
